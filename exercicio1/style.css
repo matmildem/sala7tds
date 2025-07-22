@@ -1,0 +1,21 @@
+body {
+    background-color: red;
+}
+
+
+.b{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    position:absolute;
+    left:45%;
+
+}
+
+.b:hover{
+    background-color: black;
+    color:white;
+    font-size: 25px;
+}
+
+
