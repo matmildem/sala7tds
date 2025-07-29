@@ -1,10 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-nav{
+
+nav {
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,38 +15,46 @@ nav{
     gap: 20px;
     background-color: #ddd;
     height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
-nav a{
+
+nav a {
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: inherit;
     gap: 5px;
-    }
-    nav a:hover{
-        opacity: 1;
-    }
-#s1{
-    min-height: 100vh;
-    padding-top: 80px;
-    background-color: red;
 }
 
-#s2{
+nav a:hover {
+    opacity: 1;
+}
+
+#s1 {
+    min-height: 100vh;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#s2 {
     min-height: 100vh;
     padding-top: 80px;
     background-color: rgb(255, 0, 140);
 }
 
-#s3{
+#s3 {
     min-height: 100vh;
     padding-top: 80px;
     background-color: rgb(225, 255, 0);
 }
 
-#s4{
+#s4 {
     min-height: 100vh;
     padding-top: 80px;
     background-color: blue;
